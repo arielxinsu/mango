@@ -1,0 +1,231 @@
+
+Info-Info-Info-Info-Info-Info-Info-Info-Info-Info-Info
+Printed on Tue Oct 17 15:41:07 2023
+
+
+LAMMPS version: 29 Oct 2020 / 20201029
+
+OS information: Linux 6.2.0-34-generic on x86_64
+
+sizeof(smallint): 32-bit
+sizeof(imageint): 32-bit
+sizeof(tagint):   32-bit
+sizeof(bigint):   64-bit
+
+Compiler: GNU C++ 6.3.0 20170516 with OpenMP not enabled
+C++ standard: C++14
+
+Active compile time flags:
+
+-DLAMMPS_GZIP
+-DLAMMPS_PNG
+-DLAMMPS_JPEG
+-DLAMMPS_FFMPEG
+-DLAMMPS_EXCEPTIONS
+-DLAMMPS_SMALLBIG
+
+Installed packages:
+
+MOLECULE USER-MISC USER-VTK 
+
+Memory allocation information (MPI rank 0):
+
+Total dynamically allocated memory: 0.02355 Mbyte
+Current reserved memory pool size: 22.13 Mbyte
+Maximum resident set size: 111.2 Mbyte
+
+Communication information:
+MPI library level: MPI v1.2
+MPI version: LAMMPS MPI STUBS for LAMMPS version 29 Oct 2020
+Comm style = brick,  Comm layout = uniform
+Communicate velocities for ghost atoms = no
+Nprocs = 1,   Nthreads = 1
+
+System information:
+Units         = lj
+Atom style    = atomic
+Atom map      = none
+Atoms     =            0,  types =        0,  style = none
+Kspace style = none
+
+Box has not yet been created
+
+Group information:
+Group[ 0]:     all              (static)
+
+Region information:
+
+Compute information:
+Compute[  0]:  thermo_temp,      style = temp,             group = all
+Compute[  1]:  thermo_press,     style = pressure,         group = all
+Compute[  2]:  thermo_pe,        style = pe,               group = all
+
+Dump information:
+
+Fix information:
+
+Variable information:
+
+Total time information (MPI rank 0):
+  CPU time:    0:00:01
+ Wall time:    0:00:00
+
+Styles information:
+
+Atom styles:
+
+angle           atomic          body            bond            charge          
+ellipsoid       full            hybrid          line            molecular       
+sphere          template        tri             
+
+
+
+Integrate styles:
+
+respa           verlet          
+
+
+
+Minimize styles:
+
+cg              fire            fire/old        hftn            quickmin        
+sd              
+
+
+
+Pair styles:
+
+agni            beck            born            born/coul/dsf   born/coul/wolf  
+buck            buck/coul/cut   buck/mdf        cosine/squared  coul/cut        
+coul/debye      coul/diel       coul/dsf        coul/shield     coul/slater/cut 
+coul/slater/long                coul/streitz    coul/wolf       dpd             
+dpd/tstat       drip            e3b             edip            edip/multi      
+extep           gauss           gauss/cut       hbond/dreiding/lj               
+hbond/dreiding/morse            hybrid          hybrid/overlay  ilp/graphene/hbn                
+kolmogorov/crespi/full          kolmogorov/crespi/z             lebedeva/z      
+lennard/mdf     list            lj/charmm/coul/charmm           
+lj/charmm/coul/charmm/implicit  lj/charmmfsw/coul/charmmfsh     lj/cubic        
+lj/cut          lj/cut/coul/cut lj/cut/coul/debye               lj/cut/coul/dsf 
+lj/cut/coul/wolf                lj/cut/tip4p/cut                lj/expand       
+lj/expand/coul/long             lj/gromacs      lj/gromacs/coul/gromacs         
+lj/mdf          lj/sf           lj/sf/dipole/sf lj/smooth       lj/smooth/linear                
+lj96/cut        local/density   meam/spline     meam/sw/spline  mie/cut         
+momb            morse           morse/smooth/linear             reax            
+soft            srp             table           tersoff/table   tip4p/cut       
+ufm             yukawa          zbl             zero            
+
+
+
+Bond styles:
+
+fene            fene/expand     gromos          harmonic        harmonic/shift  
+harmonic/shift/cut              hybrid          morse           nonlinear       
+quartic         special         table           zero            
+
+
+
+Angle styles:
+
+charmm          cosine          cosine/delta    cosine/periodic cosine/shift    
+cosine/shift/exp                cosine/squared  dipole          fourier         
+fourier/simple  harmonic        hybrid          quartic         table           
+zero            
+
+
+
+Dihedral styles:
+
+charmm          charmmfsw       cosine/shift/exp                fourier         
+harmonic        helix           hybrid          multi/harmonic  nharmonic       
+opls            quadratic       spherical       table           table/cut       
+zero            
+
+
+
+Improper styles:
+
+cossq           cvff            distance        fourier         harmonic        
+hybrid          ring            umbrella        zero            
+
+
+
+KSpace styles:
+
+
+
+
+Fix styles:
+
+accelerate/cos  adapt           addforce        addtorque       ave/atom        
+ave/chunk       ave/correlate   ave/correlate/long              ave/histo       
+ave/histo/weight                ave/spatial     ave/spatial/sphere              
+ave/time        aveforce        balance         box/relax       cmap            
+controller      deform          drag            dt/reset        
+electron/stopping               enforce2d       external        ffl             
+filter/corotate flow/gauss      gle             gravity         grem            
+halt            heat            imd             indent          ipi             
+langevin        lineforce       momentum        momentum/chunk  move            
+nph             nph/sphere      npt             npt/cauchy      npt/sphere      
+numdiff         nve             nve/limit       nve/noforce     nve/sphere      
+nvk             nvt             nvt/sllod       nvt/sphere      orient/eco      
+pafi            pimd            planeforce      press/berendsen print           
+propel/self     property/atom   recenter        restrain        rhok            
+selm            setforce        smd             spring          spring/chunk    
+spring/rg       spring/self     store/force     store/state     temp/berendsen  
+temp/csld       temp/csvr       temp/rescale    ti/spring       tmd             
+ttm/mod         vector          viscous         wall/ees        wall/harmonic   
+wall/lj1043     wall/lj126      wall/lj93       wall/morse      wall/reflect    
+wall/reflect/stochastic         wall/region     wall/region/ees 
+
+
+
+Compute styles:
+
+ackland/atom    adf             aggregate/atom  angle           angle/local     
+angmom/chunk    basal/atom      bond            bond/local      centro/atom     
+centroid/stress/atom            chunk/atom      chunk/spread/atom               
+cluster/atom    cna/atom        cnp/atom        com             com/chunk       
+contact/atom    coord/atom      dihedral        dihedral/local  dipole/chunk    
+displace/atom   entropy/atom    erotate/sphere  erotate/sphere/atom             
+fragment/atom   global/atom     group/group     gyration        gyration/chunk  
+gyration/shape  gyration/shape/chunk            heat/flux       hexorder/atom   
+hma             improper        improper/local  inertia/chunk   ke              
+ke/atom         momentum        msd             msd/chunk       omega/chunk     
+orientorder/atom                pair            pair/local      pe              
+pe/atom         pressure        pressure/cylinder               property/atom   
+property/chunk  property/local  rdf             reduce          reduce/chunk    
+reduce/region   slice           stress/atom     stress/mop      
+stress/mop/profile              stress/mop_selm stress/mop_selm/profile         
+temp            temp/chunk      temp/com        temp/deform     temp/partial    
+temp/profile    temp/ramp       temp/region     temp/rotate     temp/sphere     
+torque/chunk    vacf            vcm/chunk       viscosity/cos   
+
+
+
+Region styles:
+
+block           cone            cylinder        intersect       plane           
+prism           sphere          union           
+
+
+
+Dump styles:
+
+atom            cfg             custom          dcd             image           
+local           movie           vtk             xyz             
+
+
+
+Command styles (add-on input script commands):
+
+balance         change_box      create_atoms    create_bonds    create_box      
+delete_atoms    delete_bonds    displace_atoms  info            minimize        
+read_data       read_dump       read_restart    replicate       rerun           
+reset_atom_ids  reset_ids       reset_mol_ids   run             set             
+temper/grem     temper/npt      velocity        write_coeff     write_data      
+write_dump      write_restart   
+
+
+
+Info-Info-Info-Info-Info-Info-Info-Info-Info-Info-Info
+
